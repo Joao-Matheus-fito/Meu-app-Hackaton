@@ -28,6 +28,12 @@ jobs:
             any::duckdb
             any::duckspatial
             any::httr2
+            any::DT
+            any::geobr
+            any::leaflet
+            any::nasapower
+            any::sidrar
+            any::tidyverse
 
       - name: Autorizar e Fazer o Deploy
         run: |
