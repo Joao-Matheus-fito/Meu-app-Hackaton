@@ -25,7 +25,7 @@ jobs:
             any::shiny
             any::commonmark
             any::curl
-            any::duckdb
+            any::duckdb@1.2.1
             any::duckspatial
             any::httr2
             any::DT
