@@ -34,6 +34,9 @@ jobs:
             any::nasapower
             any::sidrar
             any::tidyverse
+            any::cpp11
+            any::geometries
+            any::progress
 
       - name: Autorizar e Fazer o Deploy
         run: |
