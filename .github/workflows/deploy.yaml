@@ -41,4 +41,4 @@ jobs:
       - name: Autorizar e Fazer o Deploy
         run: |
           Rscript -e "rsconnect::setAccountInfo(name='${{ secrets.SHINYAPPS_NAME }}', token='${{ secrets.SHINYAPPS_TOKEN }}', secret='${{ secrets.SHINYAPPS_SECRET }}')"
-          Rscript -e "rsconnect::deployApp(appDir = '.', appFiles = c('app.R', 'www/fotocapa.png'), appName = 'trabalho_ferrugem_soja', forceUpdate = TRUE)"
+          Rscript -e "rsconnect::deployApp(appDir = '.', appFiles = c('app.R', 'www/fotocapa.png'), appName = 'ferrugem_soja_app', forceUpdate = TRUE)"
